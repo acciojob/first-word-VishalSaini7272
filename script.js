@@ -1,15 +1,15 @@
 function firstWord(s) {
   // your code here
-	 str = str.trimStart();
+	 s = s.trimStart();
 
   // Find the index of the first space
-  const firstSpaceIndex = str.indexOf(' ');
+  const firstSpaceIndex = s.indexOf(' ');
 
   // If there's no space, return the entire string
   if (firstSpaceIndex === -1) {
-    return str;
+    return s;
   }
-return str.slice(0, firstSpaceIndex);
+return s.slice(0, firstSpaceIndex);
 }
 
 
